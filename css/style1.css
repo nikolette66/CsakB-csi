@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(22, 191, 197);
+}
+.container{
+    max-width: 1300px;
+    margin:0 auto;
+}
+.header{
+    height: 480px;
+    background: url('../img/picture1.jpg');
+    color:white;
+    font-size: 1rem;
+    padding: 250px 0 0 400px;
+}
+.navigation{
+    background-color: #5473b4
+}
+.navigation ul{
+    list-style-type: none;
+}
+.navigation ul::after, .hasab::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.navigation ul li{
+    width:20%;
+    float:left;
+    text-align: center;
+}
+.navigation ul li a{
+    color:rgb(211, 198, 198);
+    text-decoration: none;
+    padding:30px;
+    display:block;
+    text-transform: uppercase;
+}
+.navigation ul li a:hover{
+    background-color: #455f97;
+    text-decoration: underline;
+}
+.content{
+    background: rgb(189, 185, 185);
+}
+.content .hasab img{
+    max-width: 50%;
+}
+.content .hasab p{
+    float:left;
+    max-width:50%;
+    font-size:.8rem;
+    padding:20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+.kep1{
+    float:right;
+}
+.kep2{
+    float:left;
+}
+.footer{
+    background: rgb(250, 245, 245);
+    height: 100px;
+    font-size: 21rem;
+    padding-top: 50px;
+    text-align: center;
+    color:rgb(177, 162, 162)
+}
